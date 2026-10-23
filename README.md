@@ -1,6 +1,6 @@
 # Teaching & Learning
 
-**Visit the site:** https://juan-zhong.github.io/teaching/
+**Visit the site:** https://juan-zhong.github.io/teachtolearn/
 
 Teaching materials, learning resources, and tools for exploring language, by Juan Zhong (钟娟/鍾娟), PhD student in Linguistics at the University at Buffalo, SUNY.
 
