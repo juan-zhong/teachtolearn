@@ -19,8 +19,8 @@
         main h4 ~ p { margin-bottom: 12px; }
         main h4 ~ p.note { margin-top: 20px; }
         @media (max-width: 600px) { .content-section { padding: 56px 20px; } h1 { font-size: 36px; } }
-        .use-list { margin: -24px 0 40px 22px; color: #666; font-size: 17px; font-weight: 300; line-height: 1.8; }
-        .use-list li { margin-bottom: 6px; }
+        .start-here { list-style: none; margin: 0 0 32px; font-size: 17px; font-weight: 300; line-height: 2; color: #666; }
+        .start-here strong { font-weight: 400; color: #333; }
         footer .license { font-size: 13px; color: #888; letter-spacing: 0.03em; margin-top: 6px; text-transform: none; }
         html { scroll-behavior: smooth; }
         .to-top { position: fixed; right: 24px; bottom: 24px; width: 40px; height: 40px; border: 1px solid #ccc; border-radius: 50%; background: #fff; color: #777; font-size: 18px; line-height: 38px; text-align: center; text-decoration: none; opacity: 0; visibility: hidden; transition: opacity .3s, visibility .3s, color .2s, border-color .2s; z-index: 100; }
@@ -36,7 +36,7 @@
         <a href="#learning">Learning</a>
         <a href="#community">Community</a>
         <a href="#further">Resources</a>
-        <a href="#use">Using</a>
+        <a href="using.html">Using</a>
         <a href="#experience">Experience</a>
     </nav>
 
@@ -48,8 +48,12 @@
     <main>
 
         <section id="intro" class="content-section">
+            <ul class="start-here">
+                <li><strong>Instructors</strong> → <a href="#materials">Teaching Materials</a> · <a href="using.html">Using These Materials</a></li>
+                <li><strong>Students</strong> → <a href="#materials">Teaching Materials</a> · <a href="#tools">Tools &amp; Guides</a></li>
+                <li><strong>Learners and speakers of Anyuan Hakka</strong> → <a href="#learning">Language Learning</a> · <a href="#community">Community</a></li>
+            </ul>
             <p> This page includes teaching notes, language-learning resources, and materials developed through my teaching and community-based documentation work, for audiences from students encountering linguistics for the first time to teachers looking for materials to adapt.</p>
-            <p class="note">Start here: <strong>instructors</strong>, see <a href="#materials">Teaching Materials</a> and <a href="#use">Using These Materials</a> · <strong>students</strong>, see <a href="#materials">Teaching Materials</a> and <a href="#tools">Tools &amp; Guides</a> · <strong>learners and speakers of Anyuan Hakka</strong>, see <a href="#learning">Language Learning</a> and <a href="#community">Community</a>.</p>
         </section>
 
         <section id="materials" class="content-section">
@@ -59,19 +63,17 @@
             <p class="note">Assignments developed for LIN 207 Language, Society, and the Individual, University at Buffalo, Fall 2026. Each includes step-by-step instructions and grading criteria and can be adapted for other courses.</p>
 
             <h4><a href="lin207_assignment2_draw_a_map.pdf" target="_blank">Draw-A-Map Task</a></h4>
-            <p> A perceptual dialectology activity. Students and a consultant each draw where they believe people speak differently on a blank map, label and explain each area with a linguistic example, then compare the two maps in a short reflection on language variation.</p>
-            <p> Learning goal: to explore how people perceive linguistic variation across geographical regions. The maps record perceptions, not an objectively accurate dialect map. The consultant can be anyone willing to share how they perceive language differences; no linguistics background is needed.</p>
+            <p> A perceptual dialectology activity: students and a consultant each draw where they believe people speak differently on a blank map, label and explain each area with a linguistic example, then compare the two maps in a short reflection on language variation.</p>
             <p class="meta">For students and instructors in sociolinguistics or introductory linguistics · PDF, 2 pages · Available · Fall 2026</p>
 
             <h4><a href="lin207_assignment3_new_expressions.pdf" target="_blank">New Expressions</a></h4>
-            <p> Students write six mini-dictionary entries, three for slang expressions found online and three for expressions they create, analyzing origin, word formation, and use in context, followed by a reflection on language change, word formation, and identity. Includes an entry template. Works best after students have covered word formation and language change in class.</p>
-            <p> Learning goal: to explore how new expressions emerge, how speakers create language, and why some expressions spread while others never catch on. Entries are compiled into a class mini-dictionary; students may opt out without affecting their grade.</p>
+            <p> Students write six mini-dictionary entries, three for slang expressions found online and three for expressions they create, analyzing origin, word formation, and use in context, followed by a reflection on language change, word formation, and identity.</p>
             <p class="meta">For students and instructors in sociolinguistics, morphology, or introductory linguistics · PDF, 5 pages · Available · Fall 2026</p>
 
             <h3 style="margin-top:48px;">Languages of the World</h3>
 
             <h4><a href="lin106_languages_in_eastern_asia_slides.pdf" target="_blank">Languages in Eastern Asia</a></h4>
-            <p> Guest lecture slides for LIN 106 Languages of the World (instructor: Gladys Camacho-Rios), University at Buffalo, October 15, 2025. Covers language families of Eastern Asia, languages in China and Chinese (Sinitic) languages, Chinese dialects, and a case study of Anyuan Hakka and the AYHAK documentation project.</p>
+            <p> Guest lecture slides for LIN 106 Languages of the World (instructor: Gladys Camacho-Rios), University at Buffalo, covering language families of Eastern Asia, languages in China and Chinese (Sinitic) languages, Chinese dialects, and a case study of Anyuan Hakka and the AYHAK documentation project.</p>
             <p class="note">About this version: these are the slides as presented in October 2025. Some slides rely on audio, video, and in-class explanation; the overview of language families and Chinese dialect groups (slides 3–24) reads best on its own. Anyuan Hakka transcriptions in the slides predate the current AYHAK conventions; see <a href="https://juan-zhong.github.io/ay_hak/">AYHAK</a> for current forms.</p>
             <p class="meta">For students and instructors in introductory linguistics or typology courses · PDF, 72 slides · Available · October 2025</p>
             <p class="related">Related: <a href="writing_chinese_languages.pdf" target="_blank">Writing Chinese Languages</a> · <a href="https://juan-zhong.github.io/ay_hak/">AYHAK</a></p>
@@ -83,7 +85,7 @@
             <h3 style="margin-top:48px;">Writing Systems</h3>
 
             <h4><a href="writing_chinese_languages.pdf" target="_blank">Writing Chinese Languages</a></h4>
-            <p> Teaching notes on Chinese characters across languages: intelligibility, literacy, and language policy in Mainland China, Hong Kong and Macao, and Taiwan. Includes background, an Anyuan Hakka example, questions and answers, take-home points, discussion prompts, and further readings.</p>
+            <p> Teaching notes on Chinese characters across languages: intelligibility, literacy, and language policy in Mainland China, Hong Kong and Macao, and Taiwan.</p>
             <p class="meta">For instructors and students in writing systems or introductory linguistics courses · PDF, 6 pages · Available · November 2025, updated October 2026</p>
             <p class="related">Related: <a href="lin106_languages_in_eastern_asia_slides.pdf" target="_blank">Languages in Eastern Asia</a> · <a href="#further">Resources Directory</a></p>
         </section>
@@ -103,11 +105,11 @@
             <h3>Anyuan Hakka</h3>
 
             <h4><a href="https://juan-zhong.github.io/ay_hak/sentences.html">实用安远话五百句 · 500 Everyday Sentences</a></h4>
-            <p> Five hundred everyday sentences in Anyuan Hakka. Find a sentence, listen to the recording, and say it after the speaker. Recordings are being added.</p>
+            <p> Five hundred everyday sentences in Anyuan Hakka: find a sentence, listen to the recording, and say it after the speaker.</p>
             <p class="meta">For learners of Anyuan Hakka · Web page with audio · In progress: sentences available, recordings being added · Part of <a href="https://juan-zhong.github.io/ay_hak/">AYHAK</a></p>
 
             <h4><a href="https://juan-zhong.github.io/ay_hak/dict.html">安远话词典 · Anyuan Hakka Dictionary</a></h4>
-            <p> A community dictionary of Anyuan Hakka with Chinese characters, IPA, definitions, example sentences, and recordings. Each form is labeled with the town or village it comes from.</p>
+            <p> A community dictionary of Anyuan Hakka with Chinese characters, IPA, definitions, example sentences, and recordings, with each form labeled by the town or village it comes from.</p>
             <p class="meta">For learners and speakers of Anyuan Hakka · Web page with audio · In progress: searchable now, entries and recordings being added · Part of <a href="https://juan-zhong.github.io/ay_hak/">AYHAK</a></p>
 
             <h4>Speaking Anyuan Hakka 安远话入门十讲</h4>
@@ -126,7 +128,6 @@
 
             <h4><a href="https://juan-zhong.github.io/ay_hak/">AYHAK · Anyuan Hakka Documentation Project</a></h4>
             <p> Online meetups for people from Anyuan to keep speaking Anyuan Hakka, an edible-plant photo book with local names and audio (<a href="https://juan-zhong.github.io/ay_hak/plants.html?lang=en">Plants of Anyuan</a>, in progress), and other community resources for the language.</p>
-            <p> Community members can contribute words, photos, and local knowledge. Before anything goes online, contributors are asked whether it can be made public, whether it can be used in research, and how they want to be credited; they can ask for changes or withdrawal at any time.</p>
             <p class="related">Related: <a href="#learning">Language Learning</a></p>
 
             <h3 style="margin-top:48px;">Education &amp; Social Practice</h3>
@@ -141,36 +142,24 @@
             <p class="note">Resources I have used for teaching and learning about Chinese languages and language documentation.</p>
 
             <h4><a href="https://hakkadict.moe.edu.tw/introduction/" target="_blank">Dictionary of Taiwan Hakka</a></h4>
-            <p> The Ministry of Education (Taiwan) dictionary of six Taiwan Hakka varieties, written in traditional Chinese characters. Useful for looking up standardized Hakka character choices and pronunciations.</p>
+            <p> A dictionary of six Taiwan Hakka varieties in traditional Chinese characters (Ministry of Education, Taiwan), for looking up words, standardized characters, and pronunciations.</p>
             <p class="meta">Free online</p>
 
             <h4><a href="https://corpus.hakka.gov.tw/#/" target="_blank">Taiwan Hakka Corpus</a></h4>
-            <p> A corpus of Taiwan Hakka built for the Hakka Affairs Council. Useful for finding written Hakka in context.</p>
+            <p> A corpus of Taiwan Hakka (Hakka Affairs Council), for finding real examples of written Hakka in context.</p>
             <p class="meta">Free online</p>
 
             <h4><a href="https://e-dictionary.ilrdf.org.tw/home" target="_blank">Online Dictionary of Indigenous Languages</a></h4>
-            <p> Online dictionaries of 16 Indigenous languages of Taiwan, from the Council of Indigenous Peoples.</p>
+            <p> Dictionaries of 16 Indigenous languages of Taiwan (Council of Indigenous Peoples), for looking up words in each language.</p>
             <p class="meta">Free online</p>
 
             <h4><a href="https://zhongguoyuyan.cn/index" target="_blank">Chinese Language Resources Protection Project Platform</a></h4>
-            <p> Recordings and data from the national language resources project in Mainland China.</p>
-            <p class="meta">Registration requires a Mainland China phone number; access requirements may change</p>
+            <p> A database of recordings and data from the national language resources project in Mainland China, for hearing and comparing local varieties of Chinese and minority languages.</p>
+            <p class="meta">Free with registration; requires a Mainland China phone number, and access requirements may change</p>
 
             <h4><a href="https://search.worldcat.org/title/54523603" target="_blank">Great Dictionary of Modern Chinese Dialects</a></h4>
-            <p> 现代汉语方言大词典, a multi-volume series of local Chinese dialect dictionaries (Li Rong, chief ed.).</p>
-            <p class="meta">Jiangsu Education Publishing House, 1993– · Print; find a library copy through WorldCat</p>
-        </section>
-
-        <section id="use" class="content-section">
-            <h2>Using These Materials</h2>
-            <p> You may copy, share, and adapt the teaching materials on this site, including for your own courses, under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a>. Please credit the author and title, link to this page, and indicate any changes you made, for example: <em>Adapted from Juan Zhong, “Draw-A-Map Task,” Teach to Learn, https://juan-zhong.github.io/teachtolearn/.</em></p>
-            <p> Not covered by this license:</p>
-            <ul class="use-list">
-                <li>maps, images, audio, and video from other sources, including those in the lecture slides; they belong to their creators;</li>
-                <li>songs and films listed in Language in Music and Film, and the external resources listed above;</li>
-                <li>AYHAK materials: texts and photos are licensed under CC BY-NC 4.0, and recordings are used with each speaker’s consent and may not be republished without permission. See <a href="https://juan-zhong.github.io/ay_hak/">AYHAK</a> for details.</li>
-            </ul>
-            <p class="meta">Questions or adaptations you would like to share: juanzhon AT buffalo DOT edu · Page last updated October 2026</p>
+            <p> 现代汉语方言大词典, a multi-volume series of local Chinese dialect dictionaries (Li Rong, chief ed.), for looking up words and pronunciations in individual local varieties.</p>
+            <p class="meta">Print, through a library; find a copy through WorldCat</p>
         </section>
 
         <section id="experience" class="content-section">
@@ -191,7 +180,7 @@
     </script>
     <footer>
         <p>Teach to Learn · by <a href="https://juan-zhong.github.io/me/">Juan Zhong</a> · <a href="https://juan-zhong.github.io/ay_hak/">AYHAK</a></p>
-        <p class="license">Text and teaching materials © 2026 Juan Zhong, licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> except where otherwise noted; see <a href="#use">Using These Materials</a>. Site code: CC0.</p>
+        <p class="license">Text and teaching materials © 2026 Juan Zhong, licensed under <a href="https://creativecommons.org/licenses/by/4.0/" target="_blank">CC BY 4.0</a> except where otherwise noted; see <a href="using.html">Using These Materials</a>. Site code: CC0.</p>
     </footer>
 </body>
 </html>

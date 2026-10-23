@@ -9,7 +9,7 @@ The site includes:
 - **Language learning**: Anyuan Hakka resources for learners, including 500 everyday sentences with audio and a community dictionary
 - **Community**: linguistics taught in Anyuan Hakka and other community-based work
 - **Resources directory**: dictionaries, corpora, and archives for Chinese languages, with provider and access notes
-- **Using these materials**: what the license covers and how to credit adaptations
+- **Using these materials** (`using.html`): what the license covers and how to credit adaptations
 - **Language in Music and Film**: a listening and viewing list for the languages of Eastern Asia
 
 ## License
