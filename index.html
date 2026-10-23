@@ -19,8 +19,12 @@
         main h4 ~ p { margin-bottom: 12px; }
         main h4 ~ p.note { margin-top: 20px; }
         @media (max-width: 600px) { .content-section { padding: 56px 20px; } h1 { font-size: 36px; } }
-        .start-here { list-style: none; margin: 0 0 32px; font-size: 17px; font-weight: 300; line-height: 2; color: #666; }
-        .start-here strong { font-weight: 400; color: #333; }
+        .entry { margin: 0 0 28px; padding-left: 14px; border-left: 2px solid #e0e0e0; }
+        .entry p { margin-bottom: 4px; }
+        .entry .entry-title { font-size: 17px; font-weight: 400; color: #333; }
+        .entry .entry-text { font-size: 16px; }
+        .entry .entry-links { font-size: 14px; color: #888; line-height: 1.9; }
+        .entry-list { margin: 4px 0 0 18px; font-size: 14px; color: #888; font-weight: 300; line-height: 1.9; }
         footer .license { font-size: 13px; color: #888; letter-spacing: 0.03em; margin-top: 6px; text-transform: none; }
         html { scroll-behavior: smooth; }
         .to-top { position: fixed; right: 24px; bottom: 24px; width: 40px; height: 40px; border: 1px solid #ccc; border-radius: 50%; background: #fff; color: #777; font-size: 18px; line-height: 38px; text-align: center; text-decoration: none; opacity: 0; visibility: hidden; transition: opacity .3s, visibility .3s, color .2s, border-color .2s; z-index: 100; }
@@ -46,11 +50,28 @@
     <main>
 
         <section id="intro" class="content-section">
-            <ul class="start-here">
-                <li><strong>Instructors</strong> → <a href="#materials">Teaching Materials</a> · <a href="using.html">Using These Materials</a></li>
-                <li><strong>Students</strong> → <a href="#materials">Teaching Materials</a> · <a href="#tools">Tools &amp; Guides</a></li>
-                <li><strong>Learners and speakers of Anyuan Hakka</strong> → <a href="#learning">Language Learning</a> · <a href="#community">Community</a></li>
-            </ul>
+            <div class="entry">
+                <p class="entry-title">For instructors</p>
+                <p class="entry-text">Find classroom activities, lecture materials, and teaching guides.</p>
+                <p class="entry-links"><a href="#materials">Teaching Materials</a> · <a href="#tools">Tools &amp; Guides</a> · <a href="#further">Resources Directory</a> · <a href="using.html">Using These Materials</a></p>
+                <p class="entry-links">By topic: <a href="#draw-a-map">Language variation</a> · <a href="#new-expressions">Word formation and language change</a> · <a href="#eastern-asia">Languages of East Asia</a> · <a href="#writing-chinese">Writing systems</a> · <a href="#genai-guide">Literature search</a></p>
+            </div>
+            <div class="entry">
+                <p class="entry-title">For learners</p>
+                <p class="entry-text">Explore languages, try introductory linguistics activities, and discover resources for independent learning.</p>
+                <ul class="entry-list">
+                    <li>Want to hear different languages? Start with <a href="language_music_film.html">Language in Music and Film</a>.</li>
+                    <li>Want to learn a few sentences of Anyuan Hakka? Start with <a href="https://juan-zhong.github.io/ay_hak/sentences.html">500 Everyday Sentences</a>.</li>
+                    <li>Wonder how Chinese characters can be used across languages? Read <a href="#writing-chinese">Writing Chinese Languages</a>.</li>
+                    <li>Curious how people judge regional differences in speech? Try the <a href="#draw-a-map">Draw-A-Map Task</a>.</li>
+                    <li>Using AI tools to find readings? See the <a href="#genai-guide">guide to responsible use</a>.</li>
+                </ul>
+            </div>
+            <div class="entry">
+                <p class="entry-title">For Anyuan Hakka learners and speakers</p>
+                <p class="entry-text">Listen to recordings, look up words and sentences, and explore community language resources.</p>
+                <p class="entry-links"><a href="#learning">Language Learning</a> · <a href="#community">Community</a> · <a href="https://juan-zhong.github.io/ay_hak/">AYHAK</a></p>
+            </div>
             <p> This page includes teaching notes, language-learning resources, and materials developed through my teaching and community-based documentation work, for audiences from students encountering linguistics for the first time to teachers looking for materials to adapt.</p>
         </section>
 
@@ -60,41 +81,41 @@
             <h3>Language, Society, and the Individual</h3>
             <p class="note">Assignments developed for LIN 207 Language, Society, and the Individual, University at Buffalo, Fall 2026. Each includes step-by-step instructions and grading criteria and can be adapted for other courses.</p>
 
-            <h4><a href="lin207_assignment2_draw_a_map.pdf" target="_blank">Draw-A-Map Task</a></h4>
+            <h4 id="draw-a-map"><a href="lin207_assignment2_draw_a_map.pdf" target="_blank">Draw-A-Map Task</a></h4>
             <p> A perceptual dialectology activity: students and a consultant each draw where they believe people speak differently on a blank map, label and explain each area with a linguistic example, then compare the two maps in a short reflection on language variation.</p>
-            <p class="meta">For students and instructors in sociolinguistics or introductory linguistics · PDF, 2 pages · Available · Fall 2026</p>
+            <p class="meta">For students and instructors in sociolinguistics or introductory linguistics · PDF, 2 pages · Available · Fall 2026 · Use: adapt for your course</p>
 
-            <h4><a href="lin207_assignment3_new_expressions.pdf" target="_blank">New Expressions</a></h4>
+            <h4 id="new-expressions"><a href="lin207_assignment3_new_expressions.pdf" target="_blank">New Expressions</a></h4>
             <p> Students write six mini-dictionary entries, three for slang expressions found online and three for expressions they create, analyzing origin, word formation, and use in context, followed by a reflection on language change, word formation, and identity.</p>
-            <p class="meta">For students and instructors in sociolinguistics, morphology, or introductory linguistics · PDF, 5 pages · Available · Fall 2026</p>
+            <p class="meta">For students and instructors in sociolinguistics, morphology, or introductory linguistics · PDF, 5 pages · Available · Fall 2026 · Use: adapt for your course; requires prior knowledge of word formation and language change</p>
 
             <h3 style="margin-top:48px;">Languages of the World</h3>
 
-            <h4><a href="lin106_languages_in_eastern_asia_slides.pdf" target="_blank">Languages in Eastern Asia</a></h4>
+            <h4 id="eastern-asia"><a href="lin106_languages_in_eastern_asia_slides.pdf" target="_blank">Languages in Eastern Asia</a></h4>
             <p> Guest lecture slides for LIN 106 Languages of the World (instructor: Gladys Camacho-Rios), University at Buffalo, covering language families of Eastern Asia, languages in China and Chinese (Sinitic) languages, Chinese dialects, and a case study of Anyuan Hakka and the AYHAK documentation project.</p>
             <p class="note">About this version: these are the slides as presented in October 2025. Some slides rely on audio, video, and in-class explanation; the overview of language families and Chinese dialect groups (slides 3–24) reads best on its own. Anyuan Hakka transcriptions in the slides predate the current AYHAK conventions; see <a href="https://juan-zhong.github.io/ay_hak/">AYHAK</a> for current forms.</p>
-            <p class="meta">For students and instructors in introductory linguistics or typology courses · PDF, 72 slides · Available · October 2025</p>
+            <p class="meta">For students and instructors in introductory linguistics or typology courses · PDF, 72 slides · Available · October 2025 · Use: requires instructor context</p>
             <p class="related">Related: <a href="writing_chinese_languages.pdf" target="_blank">Writing Chinese Languages</a> · <a href="https://juan-zhong.github.io/ay_hak/">AYHAK</a></p>
 
             <h4><a href="language_music_film.html">Language in Music and Film</a></h4>
             <p> A listening and viewing list to accompany the lecture: songs and films in Tibetan, Mandarin, Hakka, a Taiwanese Indigenous language, Taiwan Mandarin, Jin, Cantonese, and Shanghai Wu.</p>
-            <p class="meta">For anyone curious about the languages of Eastern Asia · Web page · Available · October 2026</p>
+            <p class="meta">For anyone curious about the languages of Eastern Asia · Web page · Available · October 2026 · Use: on your own or in class</p>
 
             <h3 style="margin-top:48px;">Writing Systems</h3>
 
-            <h4><a href="writing_chinese_languages.pdf" target="_blank">Writing Chinese Languages</a></h4>
+            <h4 id="writing-chinese"><a href="writing_chinese_languages.pdf" target="_blank">Writing Chinese Languages</a></h4>
             <p> Teaching notes on Chinese characters across languages: intelligibility, literacy, and language policy in Mainland China, Hong Kong and Macao, and Taiwan.</p>
-            <p class="meta">For instructors and students in writing systems or introductory linguistics courses · PDF, 6 pages · Available · November 2025, updated October 2026</p>
-            <p class="related">Related: <a href="lin106_languages_in_eastern_asia_slides.pdf" target="_blank">Languages in Eastern Asia</a> · <a href="#further">Resources Directory</a></p>
+            <p class="meta">For instructors and students in writing systems or introductory linguistics courses · PDF, 6 pages · Available · November 2025, updated October 2026 · Use: on your own or for class discussion</p>
+            <p class="related">Related: <a href="lin106_languages_in_eastern_asia_slides.pdf" target="_blank">Languages in Eastern Asia</a> · <a href="https://juan-zhong.github.io/ay_hak/dict.html">Anyuan Hakka Dictionary</a> · <a href="#further">Resources Directory</a></p>
         </section>
 
         <section id="tools" class="content-section">
             <h2>Tools &amp; Guides</h2>
 
-            <h4><a href="lin207_genai_literature_search_guidelines.pdf" target="_blank">Responsibly Using Generative AI Tools for Literature Searches</a></h4>
+            <h4 id="genai-guide"><a href="lin207_genai_literature_search_guidelines.pdf" target="_blank">Responsibly Using Generative AI Tools for Literature Searches</a></h4>
             <p> Guidelines for students on using LLM-based tools such as ChatGPT, Claude, or Gemini to find literature: what they may and may not be used for, rules for prompting and verifying every citation, the tools' limitations, a workflow, and six prompt templates.</p>
-            <p class="meta">For students and instructors · PDF, 5 pages · Available · Version 1, Fall 2026</p>
-            <p class="note">Course-specific guidance for LIN 207; other courses may have different rules on AI use.</p>
+            <p class="meta">For students and instructors · PDF, 5 pages · Available · Version 1, Fall 2026 · Use: course-specific policy</p>
+            <p class="note">Course-specific guidance for LIN 207; other courses may have different rules on AI use, but the steps for verifying citations apply to any course.</p>
         </section>
 
         <section id="learning" class="content-section">
@@ -104,11 +125,11 @@
 
             <h4><a href="https://juan-zhong.github.io/ay_hak/sentences.html">实用安远话五百句 · 500 Everyday Sentences</a></h4>
             <p> Five hundred everyday sentences in Anyuan Hakka: find a sentence, listen to the recording, and say it after the speaker.</p>
-            <p class="meta">For learners of Anyuan Hakka · Web page with audio · In progress: sentences available, recordings being added · Part of <a href="https://juan-zhong.github.io/ay_hak/">AYHAK</a></p>
+            <p class="meta">For learners of Anyuan Hakka · Web page with audio · In progress: sentences available, recordings being added · Use: on your own · Part of <a href="https://juan-zhong.github.io/ay_hak/">AYHAK</a></p>
 
             <h4><a href="https://juan-zhong.github.io/ay_hak/dict.html">安远话词典 · Anyuan Hakka Dictionary</a></h4>
             <p> A community dictionary of Anyuan Hakka with Chinese characters, IPA, definitions, example sentences, and recordings, with each form labeled by the town or village it comes from.</p>
-            <p class="meta">For learners and speakers of Anyuan Hakka · Web page with audio · In progress: searchable now, entries and recordings being added · Part of <a href="https://juan-zhong.github.io/ay_hak/">AYHAK</a></p>
+            <p class="meta">For learners and speakers of Anyuan Hakka · Web page with audio · In progress: searchable now, entries and recordings being added · Use: on your own · Part of <a href="https://juan-zhong.github.io/ay_hak/">AYHAK</a></p>
 
             <h4>Speaking Anyuan Hakka 安远话入门十讲</h4>
             <p> An Anyuan Hakka course taught in Mandarin, for speakers and non-speakers alike.</p>
