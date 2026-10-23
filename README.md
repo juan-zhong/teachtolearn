@@ -2,8 +2,6 @@
 
 **Visit the site:** https://juan-zhong.github.io/teachtolearn/
 
-Teaching materials, learning resources, and tools for exploring language, by Juan Zhong (钟娟/鍾娟), PhD student in Linguistics at the University at Buffalo, SUNY.
-
 The site includes:
 
 - **Teaching materials**: assignments, lecture slides, and teaching notes for courses in linguistics, free to adapt
