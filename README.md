@@ -5,12 +5,10 @@
 The site includes:
 
 - **Teaching materials**: assignments, lecture slides, and teaching notes for courses in linguistics, free to adapt
+- **Learning resources**: East Asian Languages in Music and Film, and Anyuan Hakka resources, including 500 everyday sentences with audio, a community dictionary, and linguistics taught in Anyuan Hakka
 - **Tools & guides**: guidelines for using generative AI tools responsibly in literature searches
-- **Language learning**: Anyuan Hakka resources for learners, including 500 everyday sentences with audio and a community dictionary
-- **Community**: linguistics taught in Anyuan Hakka and other community-based work
-- **Resources directory**: dictionaries, corpora, and archives for Chinese languages, with provider and access notes
+- **More**: dictionaries, corpora, and archives for Chinese languages, with access notes
 - **Using these materials** (`using.html`): what the license covers and how to credit adaptations
-- **Language in Music and Film**: a listening and viewing list for the languages of Eastern Asia
 
 ## License
 
