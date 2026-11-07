@@ -4,6 +4,6 @@
 
 ## License
 
-Materials are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (see `LICENSE`), except where otherwise noted. You may share and adapt them, including for your own courses, as long as you credit Juan Zhong and indicate any changes. Third-party content, such as images in slides and the songs and films listed, belongs to its creators. Site code is released under CC0 (see `LICENSE-CODE`).
+Materials are licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/) (see `LICENSE`), except where otherwise noted. You may share and adapt them, including for your own courses, as long as you credit Juan Zhong and indicate any changes. Third-party content, such as images in slides and the songs and films listed, belongs to its creators. Site design and code © 2026 Juan Zhong. All rights reserved; they are not covered by CC BY 4.0. Fonts are under the SIL Open Font License (see `fonts/`).
 
 © 2026 Juan Zhong
